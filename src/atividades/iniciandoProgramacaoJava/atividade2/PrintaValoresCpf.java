@@ -14,7 +14,7 @@ public class PrintaValoresCpf {
 
         //continue a solucao
 
-        cpf = sc.nextLine().split("\\.|-");
+        cpf = sc.nextLine().split("\\. | -");
 
         for (int i = 0 ; i < 4 ; i++) {
             System.out.printf("%s\n",cpf[i]);
